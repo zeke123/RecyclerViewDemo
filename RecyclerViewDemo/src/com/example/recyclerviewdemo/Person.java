@@ -1,29 +1,29 @@
 package com.example.recyclerviewdemo;
 
-public class Person {
+public class Person 
+{
 
 	private int img;
-
 	private String name;
-
-	public int getImg() {
+	public int getImg()
+	{
 		return img;
 	}
-
-	public void setImg(int img) {
+	public void setImg(int img)
+	{
 		this.img = img;
 	}
-
-	public String getName() {
+	public String getName() 
+	{
 		return name;
 	}
-
-	public void setName(String name) {
+	public void setName(String name)
+	{
 		this.name = name;
 	}
-
 	@Override
-	public String toString() {
+	public String toString() 
+	{
 		return "Person [img=" + img + ", name=" + name + "]";
 	}
 
