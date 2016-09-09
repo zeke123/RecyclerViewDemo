@@ -2,7 +2,6 @@ package com.example.recyclerviewdemo;
 
 public class Person 
 {
-
 	private int img;
 	private String name;
 	public int getImg()
@@ -26,5 +25,4 @@ public class Person
 	{
 		return "Person [img=" + img + ", name=" + name + "]";
 	}
-
 }
